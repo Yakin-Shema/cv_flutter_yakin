@@ -1,17 +1,20 @@
-# cv_flutter_yakin
+# Application CV - Flutter
 
-A new Flutter project.
+Cette application mobile Flutter a été réalisée dans le cadre d'un projet. Elle présente mon CV, ma famille et mes coordonnées. L'accès à l'application est sécurisé par une page de connexion.
 
-## Getting Started
+## Fonctionnalités
+- **Page de connexion** : Accès sécurisé avec identifiant et mot de passe masqué.
+- **Page CV** : Présentation complète (photo, formation, expériences, compétences, langues, centres d'intérêt).
+- **Page Famille** : Liste des membres de ma famille avec photos et liens de parenté.
+- **Page Contact** : Coordonnées cliquables (téléphone, e-mail, adresse, LinkedIn, GitHub).
+- **Navigation** : Utilisation d'une `BottomNavigationBar` pour naviguer facilement entre les pages.
 
-This project is a starting point for a Flutter application.
+## Technologies utilisées
+- Flutter / Dart
+- Package `url_launcher` pour les liens cliquables
 
-A few resources to get you started if this is your first Flutter project:
+## Aperçu de l'application
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Connexion | CV | Famille | Contact |
+| :---: | :---: | :---: | :---: |
+| ![Connexion](img1.png) | ![CV](img2.png) | ![Famille](img3.png) | ![Contact](img4.png) |
